@@ -1,0 +1,3 @@
+module QuickScrapper
+  # Your code goes here...
+end
