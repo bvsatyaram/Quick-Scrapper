@@ -12,6 +12,8 @@ Gem::Specification.new do |s|
   s.summary     = %q{Quickly scraps a selection in a page}
   s.description = %q{Quickly scraps a selection in a page}
 
+  s.add_dependency "scrapi"
+
   s.rubyforge_project = "quick_scrapper"
 
   s.files         = `git ls-files`.split("\n")
