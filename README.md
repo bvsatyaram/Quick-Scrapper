@@ -10,11 +10,13 @@ Installation
 The installation slighly deffers for Ruby 1.9 and 1.8.
 
 For Ruby 1.9 and higher, the installation is as simple as running:
+
     gem install quick_scrapper
 
 However the latest version of the dependency gem `scrapi` does not have
 backward compatibility with 1.8.x. So, for Ruby 1.8.x, the installation can be
 carried out by running:
+
     gem install scrapi -v 1.2.0
     gem install quick_scrapper
 
